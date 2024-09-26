@@ -20,23 +20,3 @@ def shop(request):
 
 def contact(request):
     return render(request, 'home/contact.html')
-
-
-def index(request):
-    return render(request, 'home/index.html')
-
-
-def index(request):
-    return render(request, 'home/index.html')
-
-
-def index(request):
-    return render(request, 'home/index.html')
-
-
-def index(request):
-    return render(request, 'home/index.html')
-
-
-def index(request):
-    return render(request, 'home/index.html')
