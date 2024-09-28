@@ -20,3 +20,15 @@ def shop(request):
 
 def contact(request):
     return render(request, 'home/contact.html')
+
+
+def checkout(request):
+    return render(request, 'home/checkout.html')
+
+
+def shop_single(request):
+    return render(request, 'home/shop-single.html')
+
+
+def thankyou(request):
+    return render(request, 'home/thankyou.html')
