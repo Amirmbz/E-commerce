@@ -9,5 +9,9 @@ urlpatterns = [
     path('contact/', views.contact, name='contact'),
     path('checkout/', views.checkout, name='checkout'),
     path('shop-single/', views.shop_single, name='shop_single'),
-    path('thankyou/', views.thankyou, name='thankyou')
+    path('thankyou/', views.thankyou, name='thankyou'),
+    path('login/', views.signin, name='signin'),
+    path('register/', views.register, name='register'),
+    path('authentication/', views.authentication, name='authentication'),
+    path('verification/', views.verification, name='verification')
 ]
